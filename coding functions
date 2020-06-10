@@ -1,0 +1,12 @@
+list1 = [1,4,8,16]#assigning elements to a list
+tup = ("kavya","is", "tired")
+d1 = {"math":"okay", "comp": "easy", "chem":"left", "phy":"hard"}
+print (list1)
+print (tup)
+print (d1["comp"])# what is the difference between this and using .get()
+num = input ("which word would you like to see?   ")#accessing elements of a tuple
+num1 = (int)(num)
+print (tup[(int)(num1-1)])
+delword = input ("which word would you like to delete  ")
+d1.pop(delword)#deleting elements from dictionary
+print (d1)
