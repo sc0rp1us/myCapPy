@@ -1,0 +1,14 @@
+list1=[]
+i=1
+num = (int)(input ("how many numbers would you like to enter"))
+while i in range(1,(num+1)):
+    n= (int)(input ("enter numbers"))
+    list1.append(n)
+    i=i+1
+print ("input ",list1)
+print("printing postive elements only")
+list2=[]
+for num in list1:
+    if num >= 0:
+        list2.append(num) #why cant we use del list1[num] and then print list1 itsel; when i tried that it said list assignment out of order
+print ("output ",list2)
